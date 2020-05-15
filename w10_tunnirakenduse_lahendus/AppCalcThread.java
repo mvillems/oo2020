@@ -21,7 +21,7 @@ public class AppCalcThread implements Runnable {
                     System.out.println("CALC: Sum of the numbers added is " + AppSystem.sum());
                     memory = aSystem.getNumbers().size();
                 }
-                Thread.sleep(8000);
+                Thread.sleep(5000);
             }
         }catch (InterruptedException e) {
             // TODO: handle exception
